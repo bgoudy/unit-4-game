@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../unit-4-game/assets/css/reset.css">
+        <link rel="stylesheet" href="../unit-4-game/assets/css/style.css">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+        <title>Site Template - Welcome!</title>
+    </head>
+
+    <body background="../unit-4-game/assets/images/rebelalliance.jpg">
+        <div class="row">
+            <div class="col-md-6">
+            </div>
+        </div>  
+
+        <div class="col-md-6" id="game-title">
+            <h1>Star Wars Battle!</h1>
+        </div>
+
+        <div class="row" id="char-select" style="margin-left: 40px;">
+            
+            <div class="col-md-2" id="anakin">
+                <p class="name">Anakin Skywalker</p>
+                <img src="../unit-4-game/assets/images/anakin.jpg" id="anakin-img" alt="anakin skywalker character card">
+                <p class="anakin-hp"></p>
+            </div>
+
+            <div class="col-md-2" id="thrawn">
+                <p class="name">Grand Admiral Thrawn</p>
+                <img src="../unit-4-game/assets/images/thrawn.jpg" id="thrawn-img" alt="grand admiral thrawn character card">
+                <p class="thrawn-hp"></p>
+            </div> 
+
+            <div class="col-md-2" id="mara-jade">
+                <p class="name">Mara Jade</p>
+                <img src="../unit-4-game/assets/images/marajade.jpg" id="mara-jade-img" alt="mara jade character card">
+                <p class="mara-jade-hp"></p>
+            </div>
+
+            <div class="col-md-2" id="plo-koon">
+                <p class="name">Plo Koon</p> 
+                <img src="../unit-4-game/assets/images/plokoon.jpg" id="plo-koon-img" alt="plo koon character card">
+                <p class="plo-koon-hp"></p>
+            </div>
+
+        </div>
+
+        <div class="row">
+                <div class="col-md-12">
+                    <h2>Enemies Left to Attack</h2>
+                </div>
+            </div>
+    
+            <div class="row empty">
+                <div class="col-md-12 move" id="enemy0"></div>
+                <div class="col-md-12 move" id="enemy1"></div>
+                <div class="col-md-12 move" id="enemy2"></div>
+                <div class="col-md-12 move" id="enemy3"></div>
+            </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Your Fighter</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12" id="user-char"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 fight">
+                <button style="font-size: 24px; font-family: fantasy;" id="attack">Attack</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Defender</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12" id="user-char"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p class=""></p>
+                <p class=""></p>
+                <p class=""></p>
+                <p class=""></p>
+                <p class=""></p>
+                <p class=""></p>
+                <p class=""></p>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-md-12 fight">
+                    <button style="font-size: 24px; font-family: fantasy;" id="restart">Restart</button>
+                </div>
+            </div>
+
+    </body>
+</html>
